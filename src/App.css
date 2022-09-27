@@ -1,38 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Rubik:wght@600;700&display=swap');
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  background: #ffc747;
+/*     
+    background: linear-gradient(0deg, #FFD3A5 10%, #FD6585 40%); */
+    background: linear-gradient(217deg,
+          rgba(245, 207, 181, 0.974),
+          rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    
+  
   }
+
+
+  .home {
+    min-height: 600px !important;
+  }
+
+h2 {
+  font-family: Rubik;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-family: Montserrat;
+}
+
+nav {
+  font-family: Montserrat;
+  
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+.w-65 {
+  width: 65% !important;
+}
+
+
+.flex-center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.portfolio img {
+    width: 550px;
+    height: 400px;
+
+}
+
+.mainImg img {
+  width: 400px !important;
+  height: 400px !important;
+  
+  
+}
+
+.btn {
+  width: 150px !important;
+  height: 60px;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
   color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  background-image: linear-gradient(to right, #c3130d 0%, #f8f18b 51%, #f8af29 100%);
+}
+
+
+.customCard {
+  min-height: 300px;
 }
