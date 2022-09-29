@@ -142,16 +142,19 @@ nav {
     gap: 60px;
   }
     .home > div {
-      width: 100% !important;
-      margin-left: 20px;
+      width: 80% !important;
+      margin: 0 auto;
     }
     .about {
-      margin-left: 20px !important;
-      width: 75% !important;
+      width: 80% !important;
+        margin: 0 auto;
     }
-    #resume {
-      margin-left: 20px !important;
+    #resume,
+    #contacts {
+      width: 80% !important;
+      margin: 0 auto;
     }
+    
     .singleDescription {
       flex-direction: column;
     }
@@ -168,7 +171,10 @@ nav {
     .skillMedia > div {
           width: 100% !important;
         }
-
+    #contacts > div {
+      padding: 0 !important;
+      width: 100% !important;
+        }
 
 
 
