@@ -8,21 +8,23 @@ const About = () => {
 
 
   return (
-    <Container className='about d-flex flex-column '>
+    <Container id="about" className='about d-flex flex-column py-5 '>
 
         <h2 className='text-start w-100 pb-5'>About me</h2>
        
-        <p className='w-75 text-start'>
-          I am outgoing person interested in learning foreign languages, brain battles/trivia games and enjoying long distance walks. 
-          I am happy to say that a new career path which i decided to follow by learning Front-end Development became my new and biggest hooby. 
+        <p className='w-100 text-start'>
+          I am an outgoing person interested in learning foreign languages, playing brain battles and trivia games and enjoying long-distance walks. 
+          For a year now, a new turn in my career path in Front-end Development became my biggest hobby.
+        </p>
+        <p className='w-100 text-start'>
+          
+          The reason why I chose Front-end Development is simply because the idea of getting visual result by writing several code lines was exciting. 
+          However, with every lesson and individual practice I take my perception of Front-end Developer's potentiality scope to provide best user experience is expanding. Front-end Development is a form of art and the creation proccess motivates me to discover new ways how to improve code and project functionalities. Thus what thrills me most is the thought that programming is a never-ending learning process. You will always be able to learn some new coding language or CSS framework and thus upgrade your code and projects. 
         </p>
         <p className='w-75 text-start'>
-           Why Front-end Development? Everything about it is exciting. At first there was a joy to be able to make image with rounded corners or text centered in the middle of the page. And now excitment comes from achieving a result of fully functionable application. 
+          
         </p>
-        <p className='w-75 text-start'>
-           But what thrills me most is the thought that programming is a never ending learning path. You will always have possibility to learn some new coding language or new CSS framework and thus be able to upgrade your code and projcets. 
-        </p>
-        <p className='w-75 text-start'> If you are want to have a passionate and motivated member in your team, do not hesitate to contact me!</p>
+        <p className='w-75 text-start'> If you want to have a passionate and motivated member in your team, do not hesitate to contact me!</p>
        
   
     </Container>

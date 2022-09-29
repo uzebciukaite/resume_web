@@ -13,6 +13,7 @@ const Toolbar = () => {
           
           <Nav className="d-flex w-100 justify-content-end gap-2">
             <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About me</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#contacts">Contact me</Nav.Link>
