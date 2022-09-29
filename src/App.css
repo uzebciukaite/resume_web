@@ -97,26 +97,7 @@ nav {
   min-height: 300px;
 }
 
-@media (max-width: 768px) {
-  .home {
-    flex-direction: column-reverse !important;
-    gap: 60px;
-  }
-    .home > div {
-      width: 100% !important;
-      margin-left: 20px;
-    }
-    .about {
-      
-      margin-left: 20px !important;
-    }
-    #resume {
-      margin-left: 20px !important;
-    }
-
-
-
-}
+/* portfolio */
 
 .workImage {
   width: 100%;
@@ -155,3 +136,40 @@ nav {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse !important;
+    gap: 60px;
+  }
+    .home > div {
+      width: 100% !important;
+      margin-left: 20px;
+    }
+    .about {
+      margin-left: 20px !important;
+      width: 75% !important;
+    }
+    #resume {
+      margin-left: 20px !important;
+    }
+    .singleDescription {
+      flex-direction: column;
+    }
+    .singleDescription > div {
+        width: 100% !important;
+    }
+    .singleArea {
+      padding-left: 25px;
+    }
+    .skillMedia {
+      flex-direction: column !important;
+      gap: 60px;
+    }
+    .skillMedia > div {
+          width: 100% !important;
+        }
+
+
+
+
+}

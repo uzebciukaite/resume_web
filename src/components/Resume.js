@@ -110,7 +110,7 @@ const Resume = () => {
         
         {experienceDetails.map((x, i) => <SingleResumeBox x={x} Icon={FaBriefcase}/>)}
       </div>
-<div className='w-100 d-flex py-5 '>
+<div className='w-100 d-flex py-5 skillMedia'>
   <div className='w-50 d-flex flex-column gap-3 border-start border-5 border-light px-4 '>
     <h2 className='text-start pb-5'> Languages</h2>
     <div className='d-flex'> 

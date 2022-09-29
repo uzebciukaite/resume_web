@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <Container id="portfolio" className='w-100 py-5 text-light'> 
     <h2 className='text-start py-4'>Some of my current works</h2>
-    <Row xs={1} md={2} lg={3} className=" bg-succes w-100 gap-3 d-flex flex-center" >  
+    <Row xs={1} md={2} lg={3} className=" bg-succes w-100 gap-3 d-flex flex-center mx-auto" >  
     <Col className='imgWrapper'>
         <a href="https://uzebciukaite.github.io/react_landing_page/" target="_blank">
               <Card.Img className='h-100 w-100 rounded workImage' variant="top" src={require("../images/work3.png")} />
