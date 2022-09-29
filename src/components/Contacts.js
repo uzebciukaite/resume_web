@@ -12,7 +12,7 @@ const Contacts = () => {
       <div className='d-flex flex-column gap-5'>  
        <div className='d-flex flex-column gap-3 border-start border-5 border-light px-4 fs-5 w-25'>
            <FaLinkedin className='fs-3'/> 
-            <p className='text-start'> www.linkedin.com/in/urtezebciukaite </p>
+            <p className='text-start'> www.linkedin.com/in/ <br />urtezebciukaite </p>
         </div> 
       <div className='d-flex flex-column gap-3 border-start border-5 border-light px-4 fs-5'>
            <FaPhoneAlt className='fs-4'/> 

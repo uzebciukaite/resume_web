@@ -14,9 +14,12 @@ const Home = () => {
         </div>
        
         <div className='w-50 mainImg flex-center '>
-        <Image className='rounded-circle  '
+        <Image className=''
          src={require("../images/profile_picture.jpg")}
+         roundedCircle
+         fluid
         >
+          
         </Image>
         </div>
         
