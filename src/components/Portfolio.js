@@ -4,8 +4,8 @@ import {Container, Row, Col, Button, Card} from 'react-bootstrap'
 
 const Portfolio = () => {
   return (
-    <Container id="portfolio" className='w-100 py-5 text-light'> 
-    <h2 className='text-start py-4'>Some of my current works</h2>
+    <Container id="portfolio" className='w-100 p-120 text-light mt-5'> 
+    <h2 className='text-start py-5'>Some of my current works</h2>
     <Row xs={1} md={2} lg={3} className=" bg-succes w-100 gap-3 d-flex flex-center mx-auto" >  
     <Col className='imgWrapper'>
         <a href="https://uzebciukaite.github.io/react_landing_page/" target="_blank">

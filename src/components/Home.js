@@ -4,7 +4,7 @@ import { Container, Image, Button } from 'react-bootstrap'
 
 const Home = () => {
   return (
-    <Container id="home" className=' d-flex flex py-5 home '>
+    <Container id="home" className=' d-flex flex-center p-120 home '>
         <div className='w-50 d-flex flex-column align-items-start justify-content-center'>
          <h2 className='w-50 text-start pb-5'>Hello, I'm Urte!</h2>
         <p className='w-75 text-start fs-5' > Ambitious and motivated junior Front-end Developer,
@@ -13,11 +13,11 @@ const Home = () => {
         
         </div>
        
-        <div className='w-50 mainImg flex-center '>
-        <Image className=''
+        <div className='w-50 h-50 mainImg flex-center '>
+        <Image
          src={require("../images/profile_picture.jpg")}
          roundedCircle
-         fluid
+         
         >
           
         </Image>

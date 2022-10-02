@@ -19,6 +19,10 @@
     min-height: 600px !important;
   }
 
+  .footer {
+    height: 90vh !important;
+  }
+
 h2 {
   font-family: Rubik;
   
@@ -31,6 +35,10 @@ p {
 nav {
   font-family: Montserrat;
   
+}
+
+.p-120 {
+  padding-top: 120px;
 }
 
 .nav-link {

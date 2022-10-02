@@ -6,7 +6,12 @@ const Toolbar = () => {
 
 
   return (
-      <Navbar sticky="top" variant="dark"  className='navbar-dark '  expand="md" >
+      <Navbar 
+      sticky="top" 
+      variant="light"  
+      bg="light"
+      collapseOnSelect 
+      expand="md" >
             <Container className='d-flex'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

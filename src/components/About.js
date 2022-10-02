@@ -8,7 +8,7 @@ const About = () => {
 
 
   return (
-    <Container id="about" className='about d-flex flex-column py-5 '>
+    <Container id="about" className='about d-flex flex-column p-120'>
 
         <h2 className='text-start w-100 pb-5'>About me</h2>
        

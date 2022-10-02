@@ -100,7 +100,7 @@ const Resume = () => {
 
 
   return (
-    <Container id="resume" className='w-100 d-flex flex-column gap-5 py-5'>
+    <Container id="resume" className='w-100 d-flex flex-column gap-5 p-120'>
       <h2 className='text-start pt-5'>Education</h2>
       <div className='w-80 d-flex flex-column '>
           {educationDetails.map((x, i) => <SingleResumeBox x={x} Icon={FaGraduationCap}/>)}

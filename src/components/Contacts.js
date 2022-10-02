@@ -6,7 +6,7 @@ import {MdEmail } from 'react-icons/md'
 
 const Contacts = () => {
   return (
-    <Container id='contacts' className='home w-100 d-flex flex-column gap-5 py-5 text-light'>
+    <Container id='contacts' className='footer w-100 d-flex flex-column gap-5 p-120 pb-5 text-light'>
              <h2 className='w-100 text-start'>Contact me!</h2>
 
       <div className='d-flex flex-column gap-5'>  
